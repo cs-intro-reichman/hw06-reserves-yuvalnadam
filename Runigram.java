@@ -20,6 +20,7 @@ public class Runigram {
 		// Tests the horizontal flipping of an image:
 		imageOut = grayScaled(tinypic);
 		System.out.println();
+		
 		print(imageOut);
 
 		imageOut = scaled(tinypic, 3, 5);
